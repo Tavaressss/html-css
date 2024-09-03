@@ -1,0 +1,18 @@
+body{
+    background-color: lightyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    color: gold;
+    background-color: aquamarine;
+}
+
+h2{
+    color: red;
+}
+
+p{
+    text-align: justify;
+}

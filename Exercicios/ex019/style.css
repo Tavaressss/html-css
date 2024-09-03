@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(214, 233, 214);
+}
+
+h1{
+    color: #14301b;
+}
+
+#titulo-principal{
+    color: white;
+    background-color: rgba(63, 104, 63, 0.918);
+    text-align: center;
+}
+
+.basico{
+    color: #1a7c36;
+}
+
+.intermediario{
+    color: #7c721a;
+}
+
+.avançado{
+    color: #7c1a1a
+}
+
+.destaque{
+    background-color: rgba(255, 255, 0, 0.185);
+    text-decoration: underline;
+}
+
+p{
+    text-align: justify;
+}
