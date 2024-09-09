@@ -7,29 +7,32 @@
     <style>
         body{
             height: 98vh;
-            background: black url('espaco.jpg') center center no-repeat scroll;
+            background: black url('imagens/espaco.jpg') center center no-repeat scroll;
             background-size: cover;
         }
 
         #container{
+            background-size: 100% 100%;
+
             position: relative;
-            background-color: white;
+            
             width: 100%;
             height: 100%;
         }
 
         #conteudo{
             position: absolute;
-            background-color: rgb(255, 0, 0);
-            background-size: 100% 100%;
+            background-size: cover;
+
+            background-image: url('imagens/astronauta.png');
+            background-size: cover;
+
+            width: 500px;
+            height: 500px;
 
             left: 50%;
             top: 50%;
-
-            transform: translate(-50% -50%);
-
-            width: 150px;
-            height: 150px;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
