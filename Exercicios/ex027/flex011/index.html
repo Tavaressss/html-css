@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div.conteiner{
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+
+            margin-bottom: 80px;
+        }
+
+        div.item{
+            background-color: lightslategray;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 300px;
+            padding: 20px;
+        }
+
+        div#cxAN{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        div#cxBN{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        div#cxCN{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        div#cxAR{
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+
+        div#cxBR{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        div#cxCR{
+            flex-grow: 0;
+            flex-shrink: 2;
+        }
+
+        div#cxAA{
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+
+        div#cxBA{
+            flex-grow: 2;
+            flex-shrink: 0;
+        }
+
+        div#cxCA{
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="cxAN">A</div>
+        <div class="item" id="cxBN">B</div>
+        <div class="item" id="cxCN">C</div>
+    </div>
+
+    <div class="conteiner">
+        <div class="item" id="cxAA">A</div>
+        <div class="item" id="cxBA">B</div>
+        <div class="item" id="cxCA">C</div>
+    </div>
+
+    <div class="conteiner">
+        <div class="item" id="cxAR">A</div>
+        <div class="item" id="cxBR">B</div>
+        <div class="item" id="cxCR">C</div>
+    </div>
+</body>
+</html>
