@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        div.conteiner{
+            background-color: lightcoral;
+            display: flex;
+            flex-flow: row nowrap;
+
+            margin-bottom: 80px;
+        }
+
+        div.item{
+            background-color: lightslategray;
+            border: 1px solid black;
+            text-align: center;
+            
+            padding: 20px;
+        }
+
+        div#cxAN{
+            flex: 0 0 300px;
+        }
+
+        div#cxBN{
+            flex: 0 0 300px;
+        }
+
+        div#cxCN{
+            flex: 0 0 300px;
+        }
+
+        div#cxAR{
+            flex: 0 1 300px;
+        }
+
+        div#cxBR{
+            flex: 0 0 300px;
+        }
+
+        div#cxCR{
+            flex: 0 2 300px;
+        }
+
+        div#cxAA{
+            flex: 0 0 300px;
+        }
+
+        div#cxBA{
+            flex: 2 0 300px;
+        }
+
+        div#cxCA{
+            flex: 1 0 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="cxAN">A</div>
+        <div class="item" id="cxBN">B</div>
+        <div class="item" id="cxCN">C</div>
+    </div>
+
+    <div class="conteiner">
+        <div class="item" id="cxAA">A</div>
+        <div class="item" id="cxBA">B</div>
+        <div class="item" id="cxCA">C</div>
+    </div>
+
+    <div class="conteiner">
+        <div class="item" id="cxAR">A</div>
+        <div class="item" id="cxBR">B</div>
+        <div class="item" id="cxCR">C</div>
+    </div>
+</body>
+</html>
