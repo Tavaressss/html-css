@@ -27,7 +27,7 @@ header{
 
 header > h1{
     flex: 0 0 200px;
-    border: 1px dotted black;
+    /*border: 1px dotted black; */
 }
 
 header > nav{
@@ -35,7 +35,7 @@ header > nav{
     flex-flow: row wrap;
     justify-content: flex-end;
     
-    border: 1px dotted black;
+    /*border: 1px dotted black; */
 }
 
 header > nav > a{
@@ -60,8 +60,4 @@ main{
     border-radius: 10px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.315);
     background-color: white;
-}
-
-main > p {
-    text-align: justify;
 }
